@@ -1,1 +1,56 @@
-
+body {
+  background-color: #f3f2f9;
+  font-family: sans-serif;
+}
+.MainContainer {
+  background-color: white;
+  display: block;
+  margin: 45px auto;
+  max-width: 450px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 25px;
+}
+h1 {
+  text-align: center;
+}
+select {
+  display: block;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid rgb(222, 222, 222);
+  min-width: 100%;
+  border-radius: 5px;
+}
+.CityName {
+  border-bottom: 1px dashed rgb(222, 222, 222);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.CityName:last-of-type {
+  border: none;
+}
+h2 {
+  font-size: 26px;
+  margin: 5px 0;
+}
+.Date {
+  opacity: 0.6;
+}
+.Time {
+  font-size: 36px;
+  font-weight: 600;
+}
+.Time small {
+  font-size: 20px;
+  line-height: 36px;
+  vertical-align: top;
+}
+footer {
+  font-size: 15px;
+  text-align: center;
+}
+a {
+  color: rgb(71, 187, 191);
+}
