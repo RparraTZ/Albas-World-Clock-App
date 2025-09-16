@@ -24,6 +24,9 @@ function sydneyGetTime() {
 }
 function getCityData(event) {
   let selectedCity = event.target.value;
+  if (selectedCity === "current") {
+    selectedCity = moment.tz.guess();
+  }
   let cityName = selectedCity.replace("_", " ").split("/")[1];
   let citiesContainerElement = document.getElementById("CitiesContainer");
   let selectedCityDate = moment().tz(selectedCity).format("dddd, MMMM Do YYYY");
