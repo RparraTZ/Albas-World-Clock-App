@@ -40,7 +40,8 @@ function getCityData(event) {
             <div class="Date">${selectedCityDate}</div>
           </div>
           <div class="Time">${selectedCityTime}</div>
-        </div>`;
+        </div>
+        <a href="/">Back to home</a>`;
 }
 
 setInterval(losAngelesGetTime, 1000);
